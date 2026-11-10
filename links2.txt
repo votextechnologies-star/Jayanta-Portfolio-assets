@@ -1,0 +1,99 @@
+const skills = [
+  "HTML", "CSS", "JavaScript", "C", "C++", "JAVA", "Python", "SQL", "Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Node.js", "Firebase", "UI/UX Design"
+];
+
+const bioText = "Hi, I’m Jayanta Mondal — a BCA (Hons) student from Kolkata, India. I started with a simple curiosity about how websites and systems work behind the scenes, which evolved into a deep passion for programming and solving real-world problems. Right now, I’m building a strong foundation in Web Dev, AI, and DevOps, focusing on learning by building. My goal is to become a high-end software developer and contribute to impactful digital solutions.";
+
+
+<svg
+        className="absolute bottom-0 w-[200%] h-full opacity-10"
+        viewBox="0 0 1000 100"
+        preserveAspectRatio="none"
+      >
+        <motion.path
+          initial={{ d: "M0,50 C250,100 500,0 750,50 C1000,100 1250,0 1500,50 L1500,100 L0,100 Z" }}
+          animate={{
+            d: [
+              "M0,50 C250,100 500,0 750,50 C1000,100 1250,0 1500,50 L1500,100 L0,100 Z",
+              "M0,50 C250,0 500,100 750,50 C1000,0 1250,100 1500,50 L1500,100 L0,100 Z",
+              "M0,50 C250,100 500,0 750,50 C1000,100 1250,0 1500,50 L1500,100 L0,100 Z"
+            ]
+          }}
+          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+          fill="white"
+        />
+      </svg>
+
+const projects = [
+    {
+        id: 1,
+        title: "GameGlide",
+        description: "High-performance gaming interface with smooth interactions.",
+        color: "#ff3e00",
+        image: "/projects/img/8.png",
+        link: "/projects/live/GameGlide/index.html"
+    },
+    {
+        id: 2,
+        title: "SocialBook",
+        description: "A comprehensive social platform for connecting with peers.",
+        color: "#00e5ff",
+        image: "/projects/img/4.png",
+        link: "/projects/live/SocialBook/index.html"
+    },
+    {
+        id: 3,
+        title: "Note App",
+        description: "Elegant and efficient workspace for your thoughts.",
+        color: "#ff00e5",
+        image: "/projects/img/6.png",
+        link: "/projects/live/Note App/index.html"
+    },
+    {
+        id: 4,
+        title: "Text to Voice",
+        description: "High-fidelity AI voice synthesis for clear communication.",
+        color: "#00ff88",
+        image: "/projects/img/5.png",
+        link: "/projects/live/Text To Voice/index.html"
+    },
+    {
+        id: 5,
+        title: "Weather App",
+        description: "Hyper-accurate real-time weather analytics and forecasts.",
+        color: "#ffffff",
+        image: "/projects/img/2.png",
+        link: "/projects/live/WeatherApp/index.html"
+    }
+];
+
+ <svg className="w-full h-full rotate-[-90deg]">
+          <circle
+            cx="16" cy="16" r="14"
+            fill="none" stroke="currentColor" strokeWidth="1"
+            className="text-foreground/10"
+          />
+          <motion.circle
+            cx="16" cy="16" r="14"
+            fill="none" stroke="var(--accent)" strokeWidth="1"
+            strokeDasharray="88"
+            style={{ strokeDashoffset: dashOffset }}
+            initial={{ strokeDashoffset: 88 }}
+          />
+        </svg>
+
+<svg width="100%" height="100%">
+        <line
+          x1="50%" y1="0" x2="50%" y2="100%"
+          stroke="white" strokeWidth="1" strokeDasharray="10 20"
+        />
+      </svg>
+
+link.href = 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2250%22 fill=%22%23ff0000%22/></svg>';
+
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className="h-full w-full opacity-40">
+        <filter id="noiseFilter">
+          <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch" />
+        </filter>
+        <rect width="100%" height="100%" filter="url(#noiseFilter)" />
+      </svg>
